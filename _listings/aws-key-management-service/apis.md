@@ -30,7 +30,7 @@ apis:
   tags: Aliases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/aliases/master/_listings/aws-key-management-service/action-createalias-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/aliases/master/_listings/aws-key-management-service/action-deletealias-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
