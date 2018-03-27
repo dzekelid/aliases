@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAccountAliases&k=1:
+  /?Action=ListAccountAliases:
     get:
       summary: ' List Account Aliases '
       description: |-
