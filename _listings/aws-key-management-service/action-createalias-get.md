@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateAlias&k=1:
+  /?Action=CreateAlias:
     get:
       summary: ' Create Alias '
       description: Creates a display name for a customer master key
