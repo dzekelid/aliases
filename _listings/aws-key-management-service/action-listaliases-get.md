@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAliases&k=1:
+  /?Action=ListAliases:
     get:
       summary: ' List Aliases '
       description: Lists all of the key aliases in the account
