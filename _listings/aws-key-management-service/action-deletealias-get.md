@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAlias&k=1:
+  /?Action=DeleteAlias:
     get:
       summary: ' Delete Alias '
       description: Deletes the specified alias
