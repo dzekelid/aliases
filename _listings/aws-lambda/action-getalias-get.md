@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetAlias&k=1:
+  /?Action=GetAlias:
     get:
       summary: ' Get Alias '
       description: "Returns the specified alias information such as the alias ARN,
