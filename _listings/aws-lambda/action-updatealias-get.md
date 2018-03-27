@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateAlias&k=1:
+  /?Action=UpdateAlias:
     get:
       summary: ' Update Alias '
       description: Using this API you can update the function version to which the
