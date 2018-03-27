@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAliases&k=1:
+  /?Action=ListAliases:
     get:
       summary: ' List Aliases '
       description: Returns list of aliases created for a Lambda function
