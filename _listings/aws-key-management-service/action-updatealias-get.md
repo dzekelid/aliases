@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Update Alias
   version: 1.0.0
+  description: Updates an alias to map it to a different key.
 schemes:
 - http
 produces:
