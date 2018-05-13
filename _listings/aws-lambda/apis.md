@@ -30,15 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/action-updatealias-get.md
-- name: AWS Lambda API List Aliases
-  description: Returns list of aliases created for a Lambda function.
+- name: AWS Lambda API Update Alias
+  description: Using this API you can update the function version to which the alias
+    points and the alias description.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: http:://{host}//
   tags: Aliases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/action-listaliases-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/action-updatealias-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
