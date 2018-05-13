@@ -14,8 +14,8 @@ tags:
 - Serverless
 - Deployment
 - Amazon Web Services
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -29,7 +29,7 @@ apis:
   tags: Aliases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/action-updatealias-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/action-createalias-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
