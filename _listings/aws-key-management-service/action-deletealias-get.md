@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Delete Alias
   version: 1.0.0
+  description: Deletes the specified alias.
 schemes:
 - http
 produces:
