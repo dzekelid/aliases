@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Get Alias
   version: 1.0.0
+  description: "Returns the specified alias information such as the alias ARN, description,
+    and function version it \n      is pointing to."
 schemes:
 - http
 produces:
