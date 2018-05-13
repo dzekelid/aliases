@@ -20,8 +20,8 @@ tags:
 - Files
 - Collaboration
 - Backup
-created: "2018-03-27"
-modified: "2018-03-27"
+created: "2018-05-12"
+modified: "2018-05-12"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,9 @@ apis:
   tags: Aliases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/users-user-id-email-aliases-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/users-user-id-email-aliases-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
