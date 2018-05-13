@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Create Alias
   version: 1.0.0
+  description: Creates an alias that points to the specified Lambda function version.
 schemes:
 - http
 produces:
