@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API List Aliases
   version: 1.0.0
+  description: Returns list of aliases created for a Lambda function.
 schemes:
 - http
 produces:
