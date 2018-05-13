@@ -33,7 +33,9 @@ apis:
   tags: Aliases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/users-user-id-email-aliases-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/users-user-id-email-aliases-email-alias-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
