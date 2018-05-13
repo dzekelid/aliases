@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Create Alias
   version: 1.0.0
+  description: Creates a display name for a customer master key.
 schemes:
 - http
 produces:
