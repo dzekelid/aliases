@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Delete Alias
   version: 1.0.0
+  description: Deletes the specified Lambda function alias.
 schemes:
 - http
 produces:
