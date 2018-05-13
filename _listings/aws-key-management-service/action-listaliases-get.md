@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API List Aliases
   version: 1.0.0
+  description: Lists all of the key aliases in the account.
 schemes:
 - http
 produces:
