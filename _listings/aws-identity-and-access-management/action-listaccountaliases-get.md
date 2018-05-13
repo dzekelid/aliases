@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List Account Aliases
   version: 1.0.0
+  description: |-
+    Lists the account alias associated with the AWS account (Note: you can have only
+          one).
 schemes:
 - http
 produces:
