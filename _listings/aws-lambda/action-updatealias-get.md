@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Update Alias
   version: 1.0.0
+  description: Using this API you can update the function version to which the alias
+    points and the alias description.
 schemes:
 - http
 produces:
