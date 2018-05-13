@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/action-updatealias-get.md
-- name: AWS Key Management Service API List Aliases
-  description: Lists all of the key aliases in the account.
+- name: AWS Key Management Service API Update Alias
+  description: Updates an alias to map it to a different key.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
   baseURL: http:://{host}//
   tags: Aliases
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/action-listaliases-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/action-updatealias-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
