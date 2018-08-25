@@ -16,9 +16,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Rotten Tomatoes
-  x-api-slug: rotten-tomatoes
-  description: test-our-api-services-using-io-docs-
+- name: Rotten Tomatoes - Get Movie Alias
+  x-api-slug: movie-alias-json-get
+  description: Get movie alias.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
   baseURL: https://api.rottentomatoes.com//api/public/v1.0
@@ -28,9 +28,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-openapi.md
-- name: Rotten Tomatoes
-  x-api-slug: rotten-tomatoes
-  description: test-our-api-services-using-io-docs-
+- name: Rotten Tomatoes - Get Movie Alias
+  x-api-slug: movie-alias-json-get
+  description: Get movie alias.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
   baseURL: https://api.rottentomatoes.com//api/public/v1.0
@@ -40,22 +40,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-openapi.md
-- name: Rotten Tomatoes
-  x-api-slug: rotten-tomatoes
-  description: 'Rotten Tomatoes is a website containing information about movies:
-    information, news, reviews and ratings, pictures, etx. The Rotten Tomatoes API
-    is RESTful web service that was designed to be easy to explore and use. Developers
-    can use the API to access the Rotten Tomatoes&#039; database of movie data by
-    using the Lists, Movies, or DVDs sections of the API.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
-  humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0
-  tags: Aliases
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://rite.kit.api.gallery.streamdata.io

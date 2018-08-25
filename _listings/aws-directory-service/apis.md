@@ -20,9 +20,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Directory Service API
-  x-api-slug: aws-directory-service-api
-  description: ""
+- name: AWS Directory Service API - Create Alias
+  x-api-slug: actioncreatealias-get
+  description: Creates an alias for a directory and assigns the alias to the directory.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
   humanURL: https://aws.amazon.com/directoryservice/
   baseURL: :///
@@ -34,9 +34,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/actioncreatealias-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/actioncreatealias-get-openapi.md
-- name: AWS Directory Service API
-  x-api-slug: aws-directory-service-api
-  description: ""
+- name: AWS Directory Service API - Create Alias
+  x-api-slug: actioncreatealias-get
+  description: Creates an alias for a directory and assigns the alias to the directory.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
   humanURL: https://aws.amazon.com/directoryservice/
   baseURL: :///
@@ -48,27 +48,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/actioncreatealias-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/actioncreatealias-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/actioncreatealias-get-openapi.md
-- name: AWS Directory Service API
-  x-api-slug: aws-directory-service-api
-  description: AWS Directory Service for Microsoft Active Directory (Enterprise Edition),
-    also known as AWS Microsoft AD, enables your directory-aware workloads and AWS
-    resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service
-    is built on actual Microsoft Active Directory and does not require you to synchronize
-    or replicate data from your existing Active Directory to the cloud. You can use
-    standard Active Directory administration tools and take advantage of built-in
-    Active Directory features such as Group Policy, trusts, and single sign-on. With
-    Microsoft AD, you can easily joinAmazon EC2andAmazon RDS for SQL Serverinstances
-    to a domain, and useAWS Enterprise IT applicationssuch asAmazon WorkSpaceswith
-    Active Directory users and groups.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
-  humanURL: https://aws.amazon.com/directoryservice/
-  baseURL: :///
-  tags: Aliases
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-directory-service/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.direct.connect.api.gallery.streamdata.io

@@ -12,9 +12,12 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Put Push Scheduled Alias Alias
+  x-api-slug: pushscheduledaliasalias-put
+  description: Changes a scheduled notification alias. Aliases for scheduled notifications
+    are unique per Urban Airship application, so you might want to hash the aliases
+    with a device ID or use some other mechanism to ensure uniqueness. The only other
+    limit is that they must be 255 characters or less.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
@@ -25,26 +28,27 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Delete Push Scheduled Alias Alias
+  x-api-slug: pushscheduledaliasalias-delete
+  description: Deletes a scheduled notification alias.  If you attempt to schedule
+    an aliased scheduled notification with an alias that already exists for your application,
+    it will overwrite the existing one.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
   tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
     Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Put Push Scheduled Alias Alias
+  x-api-slug: pushscheduledaliasalias-put
+  description: Changes a scheduled notification alias. Aliases for scheduled notifications
+    are unique per Urban Airship application, so you might want to hash the aliases
+    with a device ID or use some other mechanism to ensure uniqueness. The only other
+    limit is that they must be 255 characters or less.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
@@ -55,15 +59,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: the-urban-airships-api-powers-mobile-applications-with-push-rich-push-inapp-purchases-and-subscription-services-
+- name: Urban Airship - Delete Push Scheduled Alias Alias
+  x-api-slug: pushscheduledaliasalias-delete
+  description: Deletes a scheduled notification alias.  If you attempt to schedule
+    an aliased scheduled notification with an alias that already exists for your application,
+    it will overwrite the existing one.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
   baseURL: https://go.urbanairship.com//api/
@@ -71,28 +71,9 @@ apis:
     Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-put-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/pushscheduledaliasalias-delete-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: The Urban Airship Push API is a major update which unifies several
-    legacy endpoints into two&mdash; one for sending messages and one for scheduling.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
-  humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api/
-  tags: Aliases
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/urban-airship/openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/
