@@ -100,6 +100,27 @@ paths:
           description: OK
       tags:
       - Aliases
+  /?Action=UpdateAlias:
+    get:
+      summary: Update Alias
+      description: Using this API you can update the function version to which the
+        alias points and the alias description.
+      operationId: updateAlias
+      x-api-path-slug: actionupdatealias-get
+      parameters:
+      - in: query
+        name: FunctionName
+        description: The function name for which the alias is created
+        type: string
+      - in: query
+        name: Name
+        description: The alias name
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Aliases
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

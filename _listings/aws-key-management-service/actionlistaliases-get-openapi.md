@@ -71,6 +71,27 @@ paths:
           description: OK
       tags:
       - Aliases
+  /?Action=UpdateAlias:
+    get:
+      summary: Update Alias
+      description: Updates an alias to map it to a different key.
+      operationId: updateAlias
+      x-api-path-slug: actionupdatealias-get
+      parameters:
+      - in: query
+        name: AliasName
+        description: String that contains the name of the alias to be modified
+        type: string
+      - in: query
+        name: TargetKeyId
+        description: Unique identifier of the customer master key to be mapped to
+          the alias
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Aliases
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -4,7 +4,7 @@ x-collection-name: Box
 x-complete: 0
 info:
   title: Box Add Email Alias
-  description: "Adds a new email alias to the given user\u2019s account."
+  description: Adds a new email alias to the given user???s account.
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
@@ -38,7 +38,7 @@ paths:
       - Aliases
     post:
       summary: Add Email Alias
-      description: "Adds a new email alias to the given user\u2019s account."
+      description: Adds a new email alias to the given user???s account.
       operationId: addEmailAlias
       x-api-path-slug: usersuser-idemail-aliases-post
       parameters:

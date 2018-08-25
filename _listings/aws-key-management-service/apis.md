@@ -12,49 +12,153 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Aliases
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Key Management Service API Create Alias
+- name: AWS Key Management Service API
   x-api-slug: aws-key-management-service-api
-  description: Creates a display name for a customer master key.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
-  baseURL: ://///?Action=CreateAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
-- name: AWS Key Management Service API Delete Alias
+- name: AWS Key Management Service API
   x-api-slug: aws-key-management-service-api
-  description: Deletes the specified alias.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
-  baseURL: ://///?Action=DeleteAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
-- name: AWS Key Management Service API List Aliases
+- name: AWS Key Management Service API
   x-api-slug: aws-key-management-service-api
-  description: Lists all of the key aliases in the account.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
-  baseURL: ://///?Action=ListAliases
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
-- name: AWS Key Management Service API Update Alias
+- name: AWS Key Management Service API
   x-api-slug: aws-key-management-service-api
-  description: Updates an alias to map it to a different key.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
-  baseURL: ://///?Action=UpdateAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionupdatealias-get-openapi.md
+- name: AWS Key Management Service API
+  x-api-slug: aws-key-management-service-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+- name: AWS Key Management Service API
+  x-api-slug: aws-key-management-service-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+- name: AWS Key Management Service API
+  x-api-slug: aws-key-management-service-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
+- name: AWS Key Management Service API
+  x-api-slug: aws-key-management-service-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionlistaliases-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/actionupdatealias-get-openapi.md
 - name: AWS Key Management Service API
@@ -74,6 +178,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-key-management-service/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.internet.of.things.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.key.management.service.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
 - type: x-documentation

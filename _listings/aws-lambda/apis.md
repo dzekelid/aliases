@@ -11,61 +11,219 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Aliases
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Lambda API Create Alias
+- name: AWS Lambda API
   x-api-slug: aws-lambda-api
-  description: Creates an alias that points to the specified Lambda function version.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=CreateAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
-- name: AWS Lambda API Delete Alias
+- name: AWS Lambda API
   x-api-slug: aws-lambda-api
-  description: Deletes the specified Lambda function alias.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=DeleteAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
-- name: AWS Lambda API Get Alias
+- name: AWS Lambda API
   x-api-slug: aws-lambda-api
-  description: "Returns the specified alias information such as the alias ARN, description,
-    and function version it \n      is pointing to."
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=GetAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
-- name: AWS Lambda API List Aliases
+- name: AWS Lambda API
   x-api-slug: aws-lambda-api
-  description: Returns list of aliases created for a Lambda function.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=ListAliases
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
-- name: AWS Lambda API Update Alias
+- name: AWS Lambda API
   x-api-slug: aws-lambda-api
-  description: Using this API you can update the function version to which the alias
-    points and the alias description.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
-  baseURL: ://///?Action=UpdateAlias
-  tags: Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
+- name: AWS Lambda API
+  x-api-slug: aws-lambda-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+- name: AWS Lambda API
+  x-api-slug: aws-lambda-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+- name: AWS Lambda API
+  x-api-slug: aws-lambda-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+- name: AWS Lambda API
+  x-api-slug: aws-lambda-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+- name: AWS Lambda API
+  x-api-slug: aws-lambda-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
+  humanURL: http://docs.aws.amazon.com/lambda/
+  baseURL: :///
+  tags: Amazon Web Services, Serverless, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actioncreatealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiondeletealias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actiongetalias-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionlistaliases-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/actionupdatealias-get-openapi.md
 - name: AWS Lambda API
@@ -84,6 +242,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-lambda/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.kinesis.analytics.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.lambda.stack.network
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
 - type: x-best-practices

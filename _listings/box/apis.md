@@ -7,45 +7,105 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Aliases
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Box Get Email Aliases
+- name: Box
   x-api-slug: box
-  description: Retrieves all email aliases for this user. The collection of email
-    aliases does not include the primary login for the user; use GET /users/USER_ID
-    to retrieve the login email address.
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//users/{USER_ID}/email_aliases
-  tags: Documents,Users, User, , Email, Aliases
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-openapi.md
-- name: Box Add Email Alias
+- name: Box
   x-api-slug: box
-  description: "Adds a new email alias to the given user\u2019s account."
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//users/{USER_ID}/email_aliases
-  tags: Documents,Users, User, , Email, Aliases
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-post-openapi.md
-- name: Box Delete Email Alias
-  x-api-slug: box
-  description: Removes an email alias from a user.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
-  humanURL: http://box.com
-  baseURL: https://api.box.com//2.0//users/{USER_ID}/email_aliases/{EMAIL_ALIAS_ID}
-  tags: Documents,Users, User, , Email, Aliases, Email, Alias
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-post-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-post-openapi.md
+  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
+- name: Box
+  x-api-slug: box
+  description: the-box-content-api-gives-you-access-to-secure-content-management-and-content-experience-features-for-use-in-your-own-app--it-strives-to-be-restful-and-is-organized-around-the-main-resources-youre-familiar-with-from-the-box-web-interface-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
+    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
+    API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
 - name: Box
@@ -59,7 +119,55 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/openapi.md
+- name: Box Create Task (stream)
+  x-api-slug: box-create-task-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Aliases
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/openapi.md
+- name: Box Get File's Collaborations (stream)
+  x-api-slug: box-get-files-collaborations-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Aliases
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/openapi.md
+- name: Box Pending Collaborations (stream)
+  x-api-slug: box-pending-collaborations-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Aliases
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/openapi.md
+- name: Box User Events, Enterprise Events (stream)
+  x-api-slug: box-user-events-enterprise-events-stream
+  description: Box is changing how you manage content across your business from simple
+    file sharing to building custom apps.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https:///
+  tags: Aliases
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://botify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://box.stack.network
 - type: x-base
   url: https://api.box.com/
 - type: x-blog
@@ -73,7 +181,7 @@ x-common:
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
-  url: https://github.com/boxdotnet
+  url: https://github.com/box
 - type: x-pricing
   url: https://developers.box.com/box-platform-pricing/
 - type: x-road-map

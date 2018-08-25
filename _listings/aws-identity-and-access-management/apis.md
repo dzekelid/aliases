@@ -12,21 +12,79 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Aliases
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Identity and Access Management API List Account Aliases
+- name: AWS Identity and Access Management API
   x-api-slug: aws-identity-and-access-management-api
-  description: |-
-    Lists the account alias associated with the AWS account (Note: you can have only
-          one).
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
-  baseURL: ://///?Action=ListAccountAliases
-  tags: Account Aliases
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+- name: AWS Identity and Access Management API
+  x-api-slug: aws-identity-and-access-management-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API
+  x-api-slug: aws-identity-and-access-management-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-openapi.md
+- name: AWS Identity and Access Management API
+  x-api-slug: aws-identity-and-access-management-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actioncreateaccountalias-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actiondeleteaccountalias-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/actionlistaccountaliases-get-openapi.md
 - name: AWS Identity and Access Management API
@@ -46,6 +104,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/aws-identity-and-access-management/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.glacier.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.identity.and.access.management.stack.network
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
 - type: x-command-line-interface

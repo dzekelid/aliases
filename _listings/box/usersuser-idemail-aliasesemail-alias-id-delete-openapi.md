@@ -38,7 +38,7 @@ paths:
       - Aliases
     post:
       summary: Add Email Alias
-      description: "Adds a new email alias to the given user\u2019s account."
+      description: Adds a new email alias to the given user???s account.
       operationId: addEmailAlias
       x-api-path-slug: usersuser-idemail-aliases-post
       parameters:
