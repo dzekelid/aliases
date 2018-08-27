@@ -8,11 +8,173 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Aliases
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Gmail - Send As Alias
+  x-api-slug: useridsettingssendas-get
+  description: Lists the send-as aliases for the specified account. The result includes
+    the primary send-as address associated with the account as well as any custom
+    "from" aliases.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendas-get-openapi.md
+- name: Gmail - Create Alias
+  x-api-slug: useridsettingssendas-post
+  description: |-
+    Creates a custom "from" send-as alias. If an SMTP MSA is specified, Gmail will attempt to connect to the SMTP service to validate the configuration before creating the alias. If ownership verification is required for the alias, a message will be sent to the email address and the resource's verification status will be set to pending; otherwise, the resource will be created with verification status set to accepted. If a signature is provided, Gmail will sanitize the HTML before saving it with the alias.
+
+    This method is only available to service account clients that have been delegated domain-wide authority.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendas-post-openapi.md
+- name: Gmail - Delete Alias
+  x-api-slug: useridsettingssendassendasemail-delete
+  description: |-
+    Deletes the specified send-as alias. Revokes any verification that may have been required for using it.
+
+    This method is only available to service account clients that have been delegated domain-wide authority.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-delete-openapi.md
+- name: Gmail - Get Alias
+  x-api-slug: useridsettingssendassendasemail-get
+  description: Gets the specified send-as alias. Fails with an HTTP 404 error if the
+    specified address is not a member of the collection.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-get-openapi.md
+- name: Gmail - Update Alias
+  x-api-slug: useridsettingssendassendasemail-patch
+  description: |-
+    Updates a send-as alias. If a signature is provided, Gmail will sanitize the HTML before saving it with the alias.
+
+    Addresses other than the primary address for the account can only be updated by service account clients that have been delegated domain-wide authority. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-patch-openapi.md
+- name: Gmail - Update Alias
+  x-api-slug: useridsettingssendassendasemail-put
+  description: |-
+    Updates a send-as alias. If a signature is provided, Gmail will sanitize the HTML before saving it with the alias.
+
+    Addresses other than the primary address for the account can only be updated by service account clients that have been delegated domain-wide authority.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-put-openapi.md
+- name: Gmail - Send As Alias
+  x-api-slug: useridsettingssendas-get
+  description: Lists the send-as aliases for the specified account. The result includes
+    the primary send-as address associated with the account as well as any custom
+    "from" aliases.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendas-get-openapi.md
+- name: Gmail - Create Alias
+  x-api-slug: useridsettingssendas-post
+  description: |-
+    Creates a custom "from" send-as alias. If an SMTP MSA is specified, Gmail will attempt to connect to the SMTP service to validate the configuration before creating the alias. If ownership verification is required for the alias, a message will be sent to the email address and the resource's verification status will be set to pending; otherwise, the resource will be created with verification status set to accepted. If a signature is provided, Gmail will sanitize the HTML before saving it with the alias.
+
+    This method is only available to service account clients that have been delegated domain-wide authority.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendas-post-openapi.md
+- name: Gmail - Delete Alias
+  x-api-slug: useridsettingssendassendasemail-delete
+  description: |-
+    Deletes the specified send-as alias. Revokes any verification that may have been required for using it.
+
+    This method is only available to service account clients that have been delegated domain-wide authority.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-delete-openapi.md
+- name: Gmail - Get Alias
+  x-api-slug: useridsettingssendassendasemail-get
+  description: Gets the specified send-as alias. Fails with an HTTP 404 error if the
+    specified address is not a member of the collection.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-get-openapi.md
+- name: Gmail - Update Alias
+  x-api-slug: useridsettingssendassendasemail-patch
+  description: |-
+    Updates a send-as alias. If a signature is provided, Gmail will sanitize the HTML before saving it with the alias.
+
+    Addresses other than the primary address for the account can only be updated by service account clients that have been delegated domain-wide authority. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-patch-openapi.md
+- name: Gmail - Update Alias
+  x-api-slug: useridsettingssendassendasemail-put
+  description: |-
+    Updates a send-as alias. If a signature is provided, Gmail will sanitize the HTML before saving it with the alias.
+
+    Addresses other than the primary address for the account can only be updated by service account clients that have been delegated domain-wide authority.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gmail-icon.png
+  humanURL: https://www.google.com/gmail/
+  baseURL: https://www.googleapis.com//gmail/v1/users
+  tags: Google APIs, Stack Network, Stack, Productivity, API Provider, Emails, Profiles,
+    Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/gmail/useridsettingssendassendasemail-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://globalchange.gov.api.gallery.streamdata.io

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jp
 x-kinRank: "9"
 x-alexaRank: "445"
 tags: Aliases
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,23 +20,35 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, Streams
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-get-openapi.md
+- name: Box - Add Email Alias
+  x-api-slug: usersuser-idemail-aliases-post
+  description: Adds a new email alias to the given user???s account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliases-post-openapi.md
 - name: Box - Delete Email Alias
   x-api-slug: usersuser-idemail-aliasesemail-alias-id-delete
   description: Removes an email alias from a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, Streams
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md
@@ -48,9 +60,9 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, Streams
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md
@@ -62,9 +74,23 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Files, Backup, Collaboration, Sharing, Storage, Storage, Stack Network, Stack,
-    Productivity, SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service
-    API, Relative Data, Relative StreamRank, Streams
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-openapi.md
+- name: Box - Delete Email Alias
+  x-api-slug: usersuser-idemail-aliasesemail-alias-id-delete
+  description: Removes an email alias from a user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/box/usersuser-idemail-aliasesemail-alias-id-delete-postman.md

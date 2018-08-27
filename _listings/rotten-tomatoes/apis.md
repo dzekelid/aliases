@@ -11,11 +11,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Aliases
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Rotten Tomatoes - Get Movie Alias
+  x-api-slug: movie-alias-json-get
+  description: Get movie alias.json.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
+  humanURL: http://rottentomatoes.com
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/aliases/master/_listings/rotten-tomatoes/movie-alias-json-get-openapi.md
 - name: Rotten Tomatoes - Get Movie Alias
   x-api-slug: movie-alias-json-get
   description: Get movie alias.json.
